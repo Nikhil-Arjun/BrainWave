@@ -326,3 +326,40 @@ export const socials = [
     url: "#",
   },
 ];
+
+export const footerLinks = [
+  {
+    title: "Products",
+    links: [
+      { name: "Image AI", link: "/" },
+      { name: "Voice AI", link: "/" },
+      { name: "Text AI", link: "/" },
+      { name: "Video AI", link: "/" },
+      { name: "Pattern AI", link: "/" },
+      { name: "Slice AI", link: "/" },
+    ],
+  },
+  {
+    title: "Help",
+    links: [
+      { name: "About us", link: "/" },
+      { name: "FAQs", link: "/" },
+      { name: "How it works", link: "/" },
+      { name: "Privacy policy", link: "/" },
+      { name: "Payment policy", link: "/" },
+    ],
+  },
+  {
+    title: "Get in touch",
+    links: [
+      { name: "customer@BrainWave.com", link: "mailto:customer@BrainWave.com" },
+      { name: "+91 96533289xx", link: "tel:+91 96533289xx" },
+    ],
+  },
+];
+
+export const socialMedia = [
+  { src: facebook, alt: "facebook logo" },
+  { src: twitter, alt: "twitter logo" },
+  { src: instagram, alt: "instagram logo" },
+];
